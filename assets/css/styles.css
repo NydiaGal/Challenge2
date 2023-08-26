@@ -1,16 +1,14 @@
-* { 
-    box-sizing: border-box;
-    background-color: #e8d4d4;
-    font-family: 'Roboto', sans-serif;
-  }
-
-  body {
+body {
+    background-color: #f8fcfd;
+    
+body {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap
   }
 
   article {
-    display: flex;
-    background-color: #d8a47f;
+    font-color: #bd8b67;
   }
 
  
