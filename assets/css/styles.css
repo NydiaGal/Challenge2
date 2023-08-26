@@ -1,3 +1,36 @@
-body {
-    
-}
+* { 
+    box-sizing: border-box;
+    background-color: #e8d4d4;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+
+  article {
+    display: flex;
+    background-color: #d8a47f;
+  }
+
+ 
+@media screen and (max-width: 992px) {
+    * {
+      background: #d8a47f;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    * {
+      background-color: #d8a47f;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    * {
+      background-color: #d8a47f;
+    }
+  }
+  
