@@ -25,12 +25,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 125px 0;
 }
 nav ul{
         list-style: none;
         width: 100%;
-        text-align: right;
+        text-align: left;
         padding-right: 60px;
 }
 nav ul li{
@@ -42,4 +42,28 @@ nav ul li{
 nav ul li a{
     color: black;
     text-decoration: none;
+}
+.contact{
+    padding: 70px;
+}
+nav.contact ul{
+    color: black;
+    text-decoration: none;
+}
+.contact ul li{
+    color: black;
+    text-decoration: none;
+}
+.contact ul li a{
+    color: black;
+    text-decoration: none;
+}
+.about{
+    padding: 70px;
+}
+.work{
+    padding: 70px;
+}
+footer{
+    padding: 70px;
 }
