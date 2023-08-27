@@ -2,28 +2,28 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-@font-face {
-    font-family: 'Marcellus-Regular';
-    src: url ('./assets/css/styles.css') format('woff2');
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 10px 8%;
 }
-
-body {
-    background-color: white;
-    font-family: 'Marcellus-Regular', sans-serif;;
-    color: #cc9999;
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
 }
-.name {
-    margin-top: 200px;
-    margin-left: 100px;
-
+nav ul{
+        list-style: none;
+        width: 100%;
+        text-align: right;
+        padding-right: 60px;
 }
-    
-]
-
-#Nydia {
-    margin-top: 0px; 
-    width: 150px; 
-    height: auto; 
+nav ul li{
+    color:blueviolet;
+    text-decoration: none;
 }
