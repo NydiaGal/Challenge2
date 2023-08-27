@@ -8,6 +8,8 @@
 .nydia{
     width: 250px;
     height: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 h1{
         width: 100%;
@@ -43,26 +45,32 @@ nav ul li a{
     color: black;
     text-decoration: none;
 }
-.contact{
-    padding: 70px;
+#contact{
+    padding: 70px;    
 }
-nav.contact ul{
+#contact ul{
+    color: black;
+    list-style: none;
+}
+#contact ul li{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#contact ul li a{
     color: black;
     text-decoration: none;
 }
-.contact ul li{
-    color: black;
-    text-decoration: none;
-}
-.contact ul li a{
-    color: black;
-    text-decoration: none;
-}
-.about{
+#about{
     padding: 70px;
 }
-.work{
+#work{
     padding: 70px;
+}
+#work-github-a{
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 footer{
     padding: 70px;
