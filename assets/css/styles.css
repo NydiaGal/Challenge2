@@ -68,9 +68,25 @@ nav ul li a{
 #work{
     padding: 70px;
 }
-#work-github-a{
-    margin-bottom: 25px;
-    margin-top: 25px;
+.sample1{
+    width: 450px;
+    height: 450px;
+}
+.sample2{
+    width: 450px;
+    height: 450px;
+}
+.sample3{
+    width: 450px;
+    height: 450px;
+}
+.sample4{
+    width: 450px;
+    height: 450px;
+}
+.sample5{
+    width: 450px;
+    height: 450px;
 }
 footer{
     padding: 70px;
