@@ -108,9 +108,6 @@ footer{
     #work{
         padding: 70px;
     }
-    #work img {
-        position: relative;
-    }
     #work img:hover::before {
         content: "";
         position: absolute;
