@@ -5,7 +5,6 @@
     font-family: 'Bricolage Grotesque', sans-serif;
     font-family: 'Marcellus', serif;
     background-color: white;
-    border: solid black 1px; /*remove before you submit*/
 }
 .nydia{
     width: 450px;
@@ -73,23 +72,6 @@ nav ul li a{
 #work{
     padding: 70px;
 }
-#work img {
-    position: relative;
-}
-#work img:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-#work img:hover::before {
-    opacity: 1;
-}
 .example2{
     width: 450px;
     height: 450px;
@@ -99,6 +81,10 @@ nav ul li a{
     height: 450px;
 }
 .example4{
+    width: 450px;
+    height: 450px;
+}
+.example5{
     width: 450px;
     height: 450px;
 }
@@ -119,3 +105,23 @@ footer{
     nav {
       flex-direction: column;
     }}
+    #work{
+        padding: 70px;
+    }
+    #work img {
+        position: relative;
+    }
+    #work img:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    #work img:hover::before {
+        opacity: 1;
+    }
