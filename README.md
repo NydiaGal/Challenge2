@@ -1,26 +1,30 @@
 # Challenge2
 
-developer's name
+#Project Title = My Portfolio
 
-a recent photo or avatar
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-links to sections about them
+## Getting Started
+### Installation
+1. Created my own files.
 
-their work
+### Features
+1. included developer's name
+2. included a recent photo or avatar
+3. included links to sections about work and contact information
+4. included links in the navigation and scrolling to the corresponding section
+5. included link to the section about work and scrolls to a section with titled images of the developer's applications
+6. included developer's first application and application's image should be larger in size than the others
+7. included images of the applications
+8. image takes to that deployed application
+9. included resize the page or view the site on various screens and devices
+10. included a responsive layout that adapts to my viewport
 
-how to contact them
+- [Contributing](#contributing)
 
-DONE - WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-
-DONE - WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-DONE - WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-DONE - WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+- [License](#license)
+1.  Node
